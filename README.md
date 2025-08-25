@@ -1,4 +1,4 @@
-# SimpleMating Analysis for Plant Breeding
+# Prediction and Optimization of Plant Breeding Cross Performance with SimpleMating
 
 ## Overview
 
