@@ -131,7 +131,7 @@ head(map_data, 5)
 
 
 # import markers effects for same SNP markers (additive and dominance) 
-# They were calculated using GBLUP package using another code. Link: here 
+# They were calculated using GBLUP package using another code. Link: https://github.com/EhtishamSK/Add-Dom 
 
 marker_effects <- read.csv("marker_effects.csv", row.names = 1)
 # remove the markers ID columns here to match the requirements of Simple Mating package
@@ -289,3 +289,6 @@ write.csv(maxGain[[1]], file = "selected_crosses.csv", row.names = FALSE)
 
 #Save maxGain[[2]] to CSV (data or metrics)
 write.csv(maxGain[[2]], file = "crosses_data.csv", row.names = FALSE)
+
+# plot 
+maxGain[[3]]
